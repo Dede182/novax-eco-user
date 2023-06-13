@@ -3,10 +3,10 @@ import axios from 'axios';
 
 const Sidebar = () => {
   useEffect(() => {
-    axios.get('https://novaxtechno.tech/api/v1/products?pag=30', {
+    axios.get('http://hydra-tech.website/api/usersList', {
       headers: {
         "Accept": "application/json",
-        'Authorization': 'Bearer 19|RoT9FAelYeYj7pFzUecTzBE5dIYssZGFxM5v0rE3'
+        // 'Authorization': 'Bearer 24|tgPkLl7N2oSsM0DOqfQX9syr2Hpi9tFrZufr47y4'
       }
     })
       .then(response => {
